@@ -31,3 +31,19 @@ Bu projenin amacı, bir kütüphanedeki kitapların, üyelerin ve ödünç alma-
 * GitHub
 * Mermaid veya draw.io (ER diyagramı için)
 * İlişkisel veritabanı tasarım ilkeleri
+6. İş Kuralları
+
+* Her kitabın benzersiz bir KitapID değeri olmalıdır.
+* Her üyenin benzersiz bir UyeID değeri olmalıdır.
+* Her ödünç alma işlemi yalnızca bir üyeye ve bir kitaba bağlı olmalıdır.
+* Bir üye zaman içinde birden fazla ödünç alma işlemi gerçekleştirebilir.
+* Bir kitap farklı zamanlarda birden fazla kez ödünç verilebilir.
+* İade işlemi gerçekleştiğinde iade durumu güncellenmelidir.
+
+7. Varlıklar ve İlişkiler
+
+* Kitaplar: Kitap bilgilerini tutar.
+* Üyeler: Kütüphane üyelerinin bilgilerini tutar.
+* Ödünç İşlemleri: Kitapların kim tarafından ve ne zaman ödünç alındığını tutar.
+* Üyeler – Ödünç İşlemleri: Bire çok (1:N) ilişki.
+* Kitaplar – Ödünç İşlemleri: Bire çok (1:N) ilişki. 
