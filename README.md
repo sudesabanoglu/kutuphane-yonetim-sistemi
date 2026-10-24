@@ -53,4 +53,4 @@ Bu projenin amacı, bir kütüphanedeki kitapların, üyelerin ve ödünç alma-
 
 Projenin veritabanı tasarımını gösteren ER diyagramı aşağıdaki dosyada bulunmaktadır.
 
-[ER Diyagramını Görüntüle](er-diyagrami.png)
+[ER Diyagramını Görüntüle](kutuphane-er-diyagrami.drawio.png)
